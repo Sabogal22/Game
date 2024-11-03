@@ -39,8 +39,8 @@ Este es un juego de tres en línea donde puedes jugar contra la computadora. Pue
    ```bash
    python snake_game.py
 
-2. **Arrancar el juego de la serpiente**:
-3. ```bash
+2. **Arrancar el juego de triki**:
+   ```bash
    python triki_game.py
 
 ## Contribuciones
