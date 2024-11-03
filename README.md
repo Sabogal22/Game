@@ -1,5 +1,5 @@
 # Game 🎮
-Este repositorio contiene dos juegos clásicos desarrollados en Python: el juego de la serpiente y el juego de triki (tres en línea). Ambos están diseñados para brindar una experiencia de juego sencilla y entretenida, y permiten a los usuarios disfrutar de estos clásicos en su computadora.
+Este repositorio contiene cuatro juegos clásicos desarrollados en Python: el juego de la serpiente, el juego de triki (tres en línea), el juego de adivinar números y el juego de adivinar un código. Todos están diseñados para brindar una experiencia de juego sencilla y entretenida, permitiendo a los usuarios disfrutar de estos clásicos en su computadora.
 
 ## Juegos Incluidos
 
@@ -37,6 +37,18 @@ En este juego, la máquina generará un número aleatorio dentro de un rango esp
 - **Controles**:
   - Selecciona la dificultad y utiliza el campo de entrada para hacer tu suposición.
 
+### 4. Adivina el Código 🔐
+En este juego, la máquina genera un código de números aleatorios, y el jugador debe adivinarlo. El código tiene una longitud variable según el nivel de dificultad elegido. El juego indicará cuántos números están correctos y cuántos están en la posición incorrecta.
+
+- **Características**:
+  - Tres niveles de dificultad: Fácil (4 números, rango 0-5), Intermedio (4 números, rango 0-9), Difícil (6 números, rango 0-9).
+  - Indicación de números correctos en posición correcta y en posición incorrecta.
+  - Oportunidades limitadas según el nivel de dificultad.
+  - Sistema de puntuación basado en los intentos utilizados.
+
+- **Controles**:
+  - Selecciona la dificultad y utiliza el campo de entrada para hacer tu suposición.
+
 ## Requisitos
 - Python 3.x
 - Biblioteca `turtle` (incluida con Python)
@@ -58,6 +70,10 @@ En este juego, la máquina generará un número aleatorio dentro de un rango esp
 2. **Arrancar el juego del numero mayor**:
    ```bash
    python guess_the_number.py
+   
+2. **Arrancar el juego del codigo**:
+   ```bash
+   python guess_the_code.py
 
 ## Contribuciones
 Las contribuciones para mejorar estos juegos son bienvenidas. Si tienes ideas o mejoras, no dudes en abrir un pull request y los revisaré para mejorar los juegos.
