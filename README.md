@@ -25,6 +25,18 @@ Este es un juego de tres en línea donde puedes jugar contra la computadora. Pue
 - **Controles**:
   - Selecciona el tamaño de la cuadrícula y haz clic en los paneles para realizar tus jugadas.
 
+### 3. Adivina el Número 🔢
+En este juego, la máquina generará un número aleatorio dentro de un rango específico según el nivel de dificultad que elijas. El jugador tendrá que adivinar cuál es ese número en un número limitado de oportunidades. Después de cada intento, el juego indicará si el número es más alto o más bajo que la suposición.
+
+- **Características**:
+  - Tres niveles de dificultad: Fácil (1-10), Intermedio (1-50) y Difícil (1-100).
+  - Indicación de si el número a adivinar es más alto o más bajo.
+  - Oportunidades limitadas según el nivel de dificultad.
+  - Juego reiniciable.
+
+- **Controles**:
+  - Selecciona la dificultad y utiliza el campo de entrada para hacer tu suposición.
+
 ## Requisitos
 - Python 3.x
 - Biblioteca `turtle` (incluida con Python)
@@ -42,6 +54,10 @@ Este es un juego de tres en línea donde puedes jugar contra la computadora. Pue
 2. **Arrancar el juego de triki**:
    ```bash
    python triki_game.py
+
+2. **Arrancar el juego del numero mayor**:
+   ```bash
+   python guess_the_number.py
 
 ## Contribuciones
 Las contribuciones para mejorar estos juegos son bienvenidas. Si tienes ideas o mejoras, no dudes en abrir un pull request y los revisaré para mejorar los juegos.
